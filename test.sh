@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-out=$(bash ./hello.rb)
+out=$(ruby ./hello.rb)
 
 # we should check out == hello
 if [ "${out}" == "hello" ];then
